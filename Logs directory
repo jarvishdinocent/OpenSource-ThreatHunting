@@ -1,0 +1,17 @@
+# Logs Directory
+
+This directory contains sample log files that simulate real-world security events. These logs can be used for training, detection, and practice in analyzing and identifying threats.
+
+The logs provided here represent common activities in a typical network and endpoint environment, helping you improve your threat-hunting skills.
+
+## Types of Logs Available:
+- **Windows Event Logs**: Logs from Windows Event Viewer, useful for detecting suspicious user activity, authentication failures, etc.
+- **Firewall Logs**: Logs from network firewalls, useful for identifying abnormal inbound/outbound traffic patterns.
+- **Network Traffic Logs**: Packet capture files (PCAP) that represent network traffic, useful for network forensics and anomaly detection.
+
+## How to Use:
+- Open the log files with your preferred log analysis tool (e.g., ELK Stack, Splunk, etc.).
+- Review the logs for suspicious or anomalous events such as failed logins, suspicious IP addresses, unusual traffic, etc.
+- Use these logs to create or refine detection rules and methods.
+
+Happy hunting!
