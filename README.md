@@ -61,22 +61,22 @@ This section contains a curated list of threats and attack methods observed in r
    - Description: A worm-like activity cluster that spreads through external drives and leverages Windows Installer to download malicious files.
 
 ### 11. Cobalt Strike
-   - Description: A popular command-and-control (C2) framework often used by adversaries, particularly in post-exploitation scenarios in ransomware attacks.
+   - Description: Cobalt Strike is a commercial, full-featured, remote access tool that bills itself as “adversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors”.
 
 ### 12. Rose Flamingo
    - Description: This threat uses SEO poisoning to trick victims into downloading malicious files.
 
 ### 13. Dridex
-   - Description: A banking trojan distributed via phishing emails containing malicious Excel documents.
+   - Description: Dridex is a prolific banking Trojan that first appeared in 2014. By December 2019, the US Treasury estimated Dridex had infected computers in hundreds of banks and financial institutions in over 40 countries, leading to more than $100 million in theft.
 
 ### 14. Scarlet Goldfinch
    - Description: A fake browser update activity cluster that tricks users into downloading a malicious JavaScript file, typically installing NetSupport Manager.
 
 ### 15. Emotet
-   - Description: A modular trojan that serves as a downloader and dropper for other malware, primarily used for distributing ransomware.
+   - Description: Emotet is a modular malware variant which is primarily used as a downloader for other malware variants such as TrickBot and IcedID. Emotet first emerged in June 2014, initially targeting the financial sector, and has expanded to multiple verticals over time.
 
 ### 16. Shlayer
-   - Description: A macOS trojan known for delivering adware, often used in ad fraud activities.
+   - Description: OSX/Shlayer is a Trojan designed to install adware on macOS that was first discovered in 2018.(Citation: Carbon Black Shlayer Feb 2019)(Citation: Intego Shlayer Feb 2018)
 
 ### 17. Gamarue
    - Description: A USB worm that spreads malware via infected USB devices.
@@ -85,22 +85,22 @@ This section contains a curated list of threats and attack methods observed in r
    - Description: A macOS-based activity cluster with fully functional distribution methods, but no final payload.
 
 ### 19. Gootloader
-   - Description: A JScript-based malware family used for SEO poisoning and delivering malicious ZIP archives that disguise themselves as documents.
+   - Description: Gootloader is a Javascript-based infection framework that has been used since at least 2020 as a delivery method for the Gootkit banking trojan, Cobalt Strike, REvil, and others
 
 ### 20. SmashJacker
    - Description: A browser hijacker that distributes via sites offering downloads of wallpapers, games, and software.
 
 ### 21. HijackLoader
-   - Description: A malware loader that injects additional payloads via process injection.
+   - Description: According to Rapid7, this is a loader first spotted in July 2023. It implements several evasion techniques including Process Doppelgänging, DLL Search Order Hijacking, and Heaven's Gate. It has been observed to store its malicious payload in the IDAT chunk of PNG file format.
 
 ### 22. SocGholish
-   - Description: A malware that masquerades as software updates for initial access, often linked to the suspected Russian cybercrime group Evil Corp.
+   - Description: SocGholish is a JavaScript-based loader malware that has been used since at least 2017. It has been observed in use against multiple sectors globally for initial access, primarily through drive-by-downloads masquerading as software updates. 
 
 ### 23. IcedID
-   - Description: A banking trojan frequently delivered through phishing campaigns.
+   - Description: IcedID is a modular banking malware designed to steal financial information that has been observed in the wild since at least 2017. IcedID has been downloaded by Emotet in multiple campaigns.(Citation: IBM IcedID November 2017)(Citation: Juniper IcedID June 2020)
 
 ### 24. TA551 (Shathak)
-   - Description: A cybercrime group known for large-scale phishing campaigns that deliver malware payloads.
+   - TA551 is a financially-motivated threat group that has been active since at least 2018. (Citation: Secureworks GOLD CABIN) The group has primarily targeted English, German, Italian, and Japanese speakers through email-based malware distribution campaigns. (Citation: Unit 42 TA551 Jan 2021)
 
 ### 25. Impacket
    - Description: Impacket is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. Impacket contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.
