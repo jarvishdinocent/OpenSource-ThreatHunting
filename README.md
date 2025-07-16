@@ -103,7 +103,7 @@ This section contains a curated list of threats and attack methods observed in r
    - Description: A cybercrime group known for large-scale phishing campaigns that deliver malware payloads.
 
 ### 25. Impacket
-   - Description: A collection of Python classes used for Windows network protocols, often seen in penetration testing and post-exploitation activities.
+   - Description: Impacket is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. Impacket contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.
 
 ### 26. TrickBot
    - Description: A modular banking trojan that acts as a dropper for other malware and targets financial data.
